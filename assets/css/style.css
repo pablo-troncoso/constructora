@@ -13,6 +13,24 @@ body {
     margin-top: 20px;
 }
 
+/* Estilo para los botones de navegación */
+.navbar-nav .nav-link.btn {
+    background-color: #d88c01; /* Color de fondo de los botones */
+    color: white; /* Color del texto */
+    margin-right: 10px; /* Espacio entre los botones */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Alineación centrada */
+    display: inline-block;
+    text-decoration: none; /* Elimina el subrayado */
+    border-color: #d88c01; /* Cambia también el borde si existe */
+}
+
+.navbar-nav .nav-link.btn:hover {
+    background-color: #b06d01; /* Un color ligeramente más oscuro al hover */
+    border-color: #b06d01;
+}
+
 /* Estilo del título con CSS3 */
 h1 {
     color: #333;
@@ -21,7 +39,7 @@ h1 {
 }
 
 h1:hover {
-    color: #007bff; /* Cambio de color al pasar el ratón */
+    color: #b06d01; /* Cambio de color al pasar el ratón */
 }
 
 /* Estilo para los párrafos */
@@ -46,4 +64,10 @@ p {
 
 .fas:hover {
     color: #0056b3; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilo adicional para ajustar el tamaño de la imagen del logo */
+.navbar-brand img {
+    height: 120px; /* Aumentar el tamaño de la imagen */
+    width: auto; /* Mantener la proporción */
 }
