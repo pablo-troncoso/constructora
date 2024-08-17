@@ -1,0 +1,49 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0; /* Color de fondo */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    margin-top: 20px;
+}
+
+/* Estilo del título con CSS3 */
+h1 {
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+    transition: color 0.3s ease; /* Transición de color */
+}
+
+h1:hover {
+    color: #007bff; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Gradiente de fondo */
+.row {
+    background: linear-gradient(to right, #e0e0e0, #ffffff); /* Gradiente de fondo */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para iconos */
+.fas {
+    color: #007bff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.fas:hover {
+    color: #0056b3; /* Cambio de color al pasar el ratón */
+}
